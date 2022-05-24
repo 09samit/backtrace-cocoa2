@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Backtrace-iOSTests/Pods-Backtrace-iOSTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Backtrace-PLCrashReporter-iOS/Backtrace_PLCrashReporter.framework
+${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework

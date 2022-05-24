@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Backtrace-tvOSTests/Pods-Backtrace-tvOSTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Backtrace-PLCrashReporter-tvOS/Backtrace_PLCrashReporter.framework
+${BUILT_PRODUCTS_DIR}/Nimble-tvOS/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Quick-tvOS/Quick.framework
