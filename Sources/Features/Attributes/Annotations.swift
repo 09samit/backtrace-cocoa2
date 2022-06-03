@@ -1,5 +1,5 @@
 import Foundation
-
+   
 struct Annotations {
     let environmentVariables: [String: String]
     let dependencies: [String: String]
