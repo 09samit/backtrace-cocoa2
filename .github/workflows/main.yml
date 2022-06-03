@@ -12,7 +12,11 @@ jobs:
     steps: 
     - name: Checkout the code
       uses: actions/checkout@v2
-    - name: Build
-      run: swift build -v
-    - name: Test
-      run: swift test -v
+    
+    # Build for iPhone
+    - name: Build and test ( tvOS 15.0)
+      run: xcodebuild test -scheme Backtrace-tvOS -destination 'platform=tvOS Simulator,OS=15.0,name=Apple TV 4K (2nd generation)'
+
+    # test for iPhone
+    - name: Build and test ( iOS 15.0)
+      run: xcodebuild test -scheme Backtrace-iOS -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12 Pro'
