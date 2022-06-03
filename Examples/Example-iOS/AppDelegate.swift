@@ -13,7 +13,7 @@ func throwingFunc() throws {
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    
+                 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let backtraceCredentials = BacktraceCredentials(endpoint: URL(string: Keys.backtraceUrl as String)!,
